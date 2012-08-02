@@ -139,7 +139,7 @@ Route::post('poll/create', function ()
 /**
  * Redirects roots to the 'new' route. 
  *
- * @return Recirect
+ * @return Redirect
  */
 Route::get(array('/', 'poll'), function()
 {
